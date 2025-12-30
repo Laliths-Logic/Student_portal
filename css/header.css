@@ -1,0 +1,33 @@
+header {
+    padding: 24px 0;
+    border-bottom: 1px solid #f0e8d0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-btn {
+    background: #2c2c2c;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+header {
+    padding: 24px 0;
+    position: relative;
+
+    background-image: url("https://www.freeiconspng.com/thumbs/login-icon/user-login-icon-14.png");
+    background-repeat: no-repeat;
+    background-position: up;
+    background-size: 25px;
+}
+

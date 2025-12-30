@@ -1,0 +1,79 @@
+.hero {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.subtitle {
+    margin: 16px auto 32px;
+    color: #666;
+}
+
+.cta-btn {
+    background: #f4e8c1;
+    padding: 14px 32px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #2c2c2c;
+}
+
+.demo {
+    margin-top: 40px;
+    padding: 32px;
+    border: 1px solid #e8d9a8;
+    background: #fff;
+}
+
+.demo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.demo {
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.96);
+
+    border: 1px solid #e8d9a8;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.demo-card {
+    background: #d7f4ff;
+    border: 1px solid #f0e8d0;
+    border-radius: 8px;
+    padding: 24px;
+
+    backdrop-filter: blur(0px);
+}
+.demo {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+}
+.demo {
+    max-width: 900px; 
+    margin: 48px auto 0; 
+
+    padding: 40px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e8d9a8;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+.stats {
+    padding: 60px 0;
+}
+
+.stats .container {
+    max-width: 900px;   
+}
+.stats-grid {
+    gap: 24px;
+}
+@media (max-width: 768px) {
+    .demo,
+    .stats .container {
+        max-width: 100%;
+    }
+}
