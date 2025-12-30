@@ -1,6 +1,3 @@
-// ===============================
-// Smooth Scroll for CTA buttons
-// ===============================
 document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener("click", function (e) {
         const targetId = this.getAttribute("href");
@@ -14,9 +11,6 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 
-// ===============================
-// Scroll Fade-in Animation
-// ===============================
 const observer = new IntersectionObserver(
     entries => {
         entries.forEach(entry => {
@@ -28,7 +22,6 @@ const observer = new IntersectionObserver(
     { threshold: 0.15 }
 );
 
-// Elements to animate
 document.querySelectorAll(
     ".feature, .testimonial, .demo, .cta-box"
 ).forEach(el => observer.observe(el));
